@@ -6,4 +6,4 @@ method = "GET"
 games = requests.request(method, url).json()
 
 for game in games:
-    print(games)
+    print(game)
